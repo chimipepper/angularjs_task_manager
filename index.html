@@ -14,17 +14,19 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/taskTitle.css">
+    <link rel="stylesheet" href="css/toolbar.css">
+    <link rel="stylesheet" href="css/sideNavTitle.css">
+    <link rel="stylesheet" href="css/taskDetails.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body ng-app="myApp" ng-controller="myCtrl">
 
     <div class="verticalSpace">
-
         <div class="container grid">
 
             <side-nav-title></side-nav-title>
@@ -39,15 +41,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
-
-    <script>
-    var app = angular.module("myApp", []);
-app.controller("myCtrl", function($scope) {
-    $scope.firstName = "John";
-    $scope.lastName = "Doe";
-});
-</script>
-
+    <script src="app.js"></script>
     <script src="components\searchBar\searchBar.js"></script>
     <script src="components\taskList\taskList.js"></script>
     <script src="components\sideNavTitle\sideNavTitle.js"></script>

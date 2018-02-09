@@ -2,12 +2,12 @@ task-list-nav {
     vertical-align: middle;
     align-items: center;
     font-family: FontAwesome;
-    border-left: 5px solid purple;
+    border-left: 5px solid #b96ffa;
     display: flex;
     justify-content: space-between;
-    border-right: solid 1px #d3d3d3;
-    border-bottom: solid 1px #d3d3d3;
-    border-top: solid 1px #d3d3d3;
+    border-right: solid 2px #d3d3d3;
+
+    border-top: solid 2px #d3d3d3;
     font-family: "Roboto", FontAwesome;
 }
 
@@ -35,8 +35,7 @@ task-list-nav i {
     display: flex;
     align-items: center;
     border-top: solid 2px #d3d3d3;
-    border-left: solid 2px #d3d3d3;
-    border-right: solid 2px #d3d3d3;
+    background-color: #f1f2f7;
 }
 
 h4,
@@ -46,6 +45,7 @@ p {
 }
 
 .userPic {
+    border-radius: 50%;
     margin-left: auto;
     margin-right: 10px;
 }
@@ -67,4 +67,16 @@ p {
     align-items: center;
     justify-content: center;
     border-bottom: solid 2px #d3d3d3;
+}
+
+.taskText b {
+    font-size: 14px;
+}
+
+.taskText p {
+    font-size: 12px;
+}
+
+.checkMark {
+    margin-right: 10px;
 }
