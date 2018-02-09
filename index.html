@@ -33,6 +33,7 @@
                 <input placeholder="&#xF002; Search..."></input>
             </div> -->
             <search-bar></search-bar>
+
             <div class="taskListNav">
                 <span>MARKETING</span>
                 <i class="fas fa-chevron-down"></i>
@@ -40,77 +41,7 @@
 
             <div class="toolBar">toolbar {{firstName}}</div>
 
-            <div class="taskList">
-
-                <div class="task">
-
-                    <div class="checkMark">
-                        <img width="40px" src="css/check.png" alt="Mountain View">
-                    </div>
-
-                    <div>
-                        <h4>Create Adwords Campaign</h4>
-                        <p>22 Feb, 2018</p>
-                    </div>
-
-                    <div class="userPic">
-                        <img width="40px" src="css/goku.jpg" alt="Mountain View">
-                    </div>
-                </div>
-
-                <div class="task">
-
-                    <div class="checkMark">
-                        <img width="40px" src="css/check.png" alt="Mountain View">
-                    </div>
-
-                    <div>
-                        <h4>Sales report </h4>
-                        <p>15 Apr, 2018</p>
-                    </div>
-
-                    <div class="userPic">
-                        <img width="40px" src="css/nami.jpg" alt="Mountain View">
-                    </div>
-                </div>
-                <div class="task">
-
-                    <div class="checkMark">
-                        <img width="40px" src="css/check.png" alt="Mountain View">
-                    </div>
-
-                    <div>
-                        <b>Write a bout design trends</b>
-                        <p>22 Feb, 2018</p>
-                    </div>
-
-                    <div class="userPic">
-                        <img width="40px" src="css/luffy.png" alt="Mountain View">
-                    </div>
-                </div>
-                <div class="task">
-
-                    <div class="checkMark">
-                        <img width="40px" src="css/check.png" alt="Mountain View">
-                    </div>
-
-                    <div>
-                        <h4>Wite article for Forbes</h4>
-                        <p>22 Feb, 2018</p>
-                    </div>
-
-                    <div class="userPic">
-                        <img width="40px" src="css/lovelive.jpg" alt="Mountain View">
-                    </div>
-                </div>
-
-                <div class="task centerButton">
-
-                    <button id="addTask" type="button">Add Task</button>
-                </div>
-
-
-            </div>
+        <task-list></task-list>
 
             <div class="taskDetails">Natilie Smith</div>
         </div>
@@ -128,6 +59,7 @@ app.controller("myCtrl", function($scope) {
 </script>
 
     <script src="components\searchBar\searchBar.js"></script>
+    <script src="components\taskList\taskList.js"></script>
 
 </body>
 

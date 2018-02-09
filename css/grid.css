@@ -29,7 +29,7 @@ search-bar {
     border: solid 2px #d3d3d3;
 }
 
-.taskList {
+task-list {
     grid-column: 3/6;
     grid-row: 3/8;
     display: grid;
