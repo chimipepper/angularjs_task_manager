@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/taskTitle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="verticalSpace">
+
+        <div class="container grid">
+            <div class="sideNavTitle">Task Manager</div>
+            <div class="sideNav">Profile Details</div>
+
+            <!-- <div class="searchBox">
+                <input placeholder="&#xF002; Search..."></input>
+            </div> -->
+            <search-bar></search-bar>
+            <div class="taskListNav">
+                <span>MARKETING</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+            <div class="toolBar">toolbar {{firstName}}</div>
+
+            <div class="taskList">
+
+                <div class="task">
+
+                    <div class="checkMark">
+                        <img width="40px" src="css/check.png" alt="Mountain View">
+                    </div>
+
+                    <div>
+                        <h4>Create Adwords Campaign</h4>
+                        <p>22 Feb, 2018</p>
+                    </div>
+
+                    <div class="userPic">
+                        <img width="40px" src="css/goku.jpg" alt="Mountain View">
+                    </div>
+                </div>
+
+                <div class="task">
+
+                    <div class="checkMark">
+                        <img width="40px" src="css/check.png" alt="Mountain View">
+                    </div>
+
+                    <div>
+                        <h4>Sales report </h4>
+                        <p>15 Apr, 2018</p>
+                    </div>
+
+                    <div class="userPic">
+                        <img width="40px" src="css/nami.jpg" alt="Mountain View">
+                    </div>
+                </div>
+                <div class="task">
+
+                    <div class="checkMark">
+                        <img width="40px" src="css/check.png" alt="Mountain View">
+                    </div>
+
+                    <div>
+                        <b>Write a bout design trends</b>
+                        <p>22 Feb, 2018</p>
+                    </div>
+
+                    <div class="userPic">
+                        <img width="40px" src="css/luffy.png" alt="Mountain View">
+                    </div>
+                </div>
+                <div class="task">
+
+                    <div class="checkMark">
+                        <img width="40px" src="css/check.png" alt="Mountain View">
+                    </div>
+
+                    <div>
+                        <h4>Wite article for Forbes</h4>
+                        <p>22 Feb, 2018</p>
+                    </div>
+
+                    <div class="userPic">
+                        <img width="40px" src="css/lovelive.jpg" alt="Mountain View">
+                    </div>
+                </div>
+
+                <div class="task centerButton">
+
+                    <button id="addTask" type="button">Add Task</button>
+                </div>
+
+
+            </div>
+
+            <div class="taskDetails">Natilie Smith</div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
+
+    <script>
+    var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Doe";
+});
+</script>
+
+    <script src="components\searchBar\searchBar.js"></script>
+
+</body>
+
+</html>

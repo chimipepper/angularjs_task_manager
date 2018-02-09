@@ -1,0 +1,15 @@
+.searchBox input {
+    height: 100%;
+    weight: 100%;
+    border: none;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    font-family: FontAwesome;
+    font-size: 32px;
+    font-family: "Roboto", FontAwesome;
+    margin-left: 20px;
+}
+
+.searchBox input:focus {
+    outline: none;
+}
