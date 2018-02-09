@@ -1,4 +1,4 @@
-.taskListNav {
+task-list-nav {
     vertical-align: middle;
     align-items: center;
     font-family: FontAwesome;
@@ -11,11 +11,17 @@
     font-family: "Roboto", FontAwesome;
 }
 
-.taskListNav span {
+.taskListNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+task-list-nav span {
     margin-left: 20px;
 }
 
-.taskListNav i {
+task-list-nav i {
     margin-right: 20px;
     font-style: normal;
 }
