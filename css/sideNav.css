@@ -1,0 +1,66 @@
+.mainProfile {
+    border-bottom: solid 2px #d3d3d3;
+    text-align: center;
+}
+
+.mainProfile img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 14px;
+}
+
+#myProgress {
+    width: 80%;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+
+#myBar {
+    width: 10%;
+    height: 10px;
+    background-color: #4d78fe;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.profileIcons {
+    margin-top: 10px;
+}
+
+.profileIcons i {
+    font-size: 18px;
+    font-style: normal;
+    background-color: #e6ebfe;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #7796ff;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stats div b {
+    font-size: 14px;
+}
+
+.stats div p {
+    font-size: 8px;
+    color: #717695;
+}
+
+.stats div p:nth-child(2) {
+    font-size: 12px;
+}
