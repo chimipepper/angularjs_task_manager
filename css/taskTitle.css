@@ -80,3 +80,7 @@ p {
 .checkMark {
     margin-right: 10px;
 }
+
+.addTask {
+    background-color: white;
+}

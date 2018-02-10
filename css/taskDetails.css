@@ -39,3 +39,85 @@
     background-color: #4e78fe;
     color: white;
 }
+
+.innerDetails {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#taskTitle {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#taskTime {
+    font-size: 12px;
+}
+
+#taskDescription {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.actionHistory {
+    font-size: 10px;
+}
+.actionHistory p {
+    margin-bottom: 5px;
+    color: #969bb9;
+}
+
+.taskStatus {
+    font-size: 14px;
+}
+
+.taskStatus i {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #547aff;
+}
+
+.taskDivider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #d3d3d3;
+}
+
+.taskIcons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 24px;
+}
+
+.taskIcons i {
+}
+
+.rightIcons {
+    margin-left: auto;
+}
+
+.rightIcons i {
+    margin-left: auto;
+    color: #9596b2;
+    padding: 10px;
+}
+
+.leftIcons i {
+    background-color: #eaedfc;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.leftIcons b,
+.leftIcons p {
+    font-size: 10px;
+}
+
+.leftIcons {
+    display: flex;
+}
+
+.leftIcons div {
+    margin-left: 10px;
+}

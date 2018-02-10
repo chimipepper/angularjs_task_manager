@@ -17,6 +17,16 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    background: linear-gradient(
+        #547cff,
+        white
+    ); /* Standard syntax (must be last) */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

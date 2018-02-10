@@ -18,6 +18,7 @@ side-nav {
     border-bottom: solid 2px #d3d3d3;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    background-color: white;
 }
 
 search-bar {
@@ -25,6 +26,7 @@ search-bar {
     display: flex;
     border-top: solid 2px #d3d3d3;
     border-right: solid 2px #d3d3d3;
+    background-color: white;
 }
 
 task-list {
@@ -44,6 +46,7 @@ task-details {
     border-top: solid 2px #d3d3d3;
     display: grid;
     grid-template-rows: 4fr 1fr;
+    background-color: white;
 }
 
 side-nav-title {
@@ -53,10 +56,12 @@ side-nav-title {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 task-list-nav {
     grid-column: 4/7;
+    background-color: white;
 }
 
 tool-bar {
@@ -65,4 +70,5 @@ tool-bar {
     border-right: solid 2px #d3d3d3;
     display: grid;
     grid-template-columns: 40% 60%;
+    background-color: white;
 }
