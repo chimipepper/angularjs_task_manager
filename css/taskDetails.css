@@ -41,7 +41,7 @@
 }
 
 .innerDetails {
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 80px;
 }
 
@@ -52,6 +52,7 @@
 
 #taskTime {
     font-size: 12px;
+    color: #969bb9;
 }
 
 #taskDescription {
@@ -120,4 +121,23 @@
 
 .leftIcons div {
     margin-left: 10px;
+}
+
+.timeStats {
+    display: flex;
+}
+
+.timeStats i {
+    margin-right: 15px;
+    color: #969bb9;
+}
+
+.taskDetails {
+    display: flex;
+}
+.taskCheck {
+    color: #547aff;
+    font-size: 48px !important;
+    margin-left: 20px;
+    margin-top: 13px;
 }
