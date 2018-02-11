@@ -17,6 +17,12 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+h4,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: linear-gradient(
         #547cff,

@@ -1,0 +1,54 @@
+.task img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border-top: solid 2px #d3d3d3;
+    background-color: #f1f2f7;
+    /* height:300px */
+}
+
+.centerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px #d3d3d3;
+}
+
+.taskText b {
+    font-size: 14px;
+}
+
+.taskText p {
+    font-size: 12px;
+}
+
+.checkMark {
+    margin-right: 10px;
+}
+
+.addTask {
+    background-color: white;
+}
+
+#addTask {
+    background-color: #4f76fa;
+    color: white;
+    border: none;
+    text-align: center;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+    /* grid-row: 7/8; */
+}
+
+.userPic {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 10px;
+}

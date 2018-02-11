@@ -31,9 +31,9 @@ search-bar {
 
 task-list {
     grid-column: 4/7;
-    grid-row: 3/8;
+    grid-row: 3/7;
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
     border-left: solid 2px #d3d3d3;
     border-right: solid 2px #d3d3d3;
 }
