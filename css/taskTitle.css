@@ -25,27 +25,3 @@ task-list-nav i {
     margin-right: 20px;
     font-style: normal;
 }
-
-h4,
-p {
-    margin: 0px;
-    padding: 0px;
-}
-
-.userPic {
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: 10px;
-}
-
-#addTask {
-    background-color: #4f76fa;
-    color: white;
-    border: none;
-    text-align: center;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    border-radius: 16px;
-    padding: 10px 30px;
-    font-family: "Roboto", sans-serif;
-}
