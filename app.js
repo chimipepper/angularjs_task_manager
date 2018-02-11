@@ -2,6 +2,8 @@ var app = angular.module("myApp", []);
 app.controller("myCtrl", function($scope) {
     $scope.selected = null;
 
+    $scope.addTask = function() {};
+
     $scope.tasks = [
         {
             title: "Find Big Mom's Treasure",
