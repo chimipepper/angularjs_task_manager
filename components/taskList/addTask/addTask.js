@@ -1,6 +1,6 @@
 app.component("addTask", {
+    templateUrl: "components/taskList/addTask/addTask.html",
     require: {
-        parentCtrl: "^myCtrl"
-    },
-    templateUrl: "components/taskList/addTask/addTask.html"
+        parentCtrl: "^app"
+    }
 });

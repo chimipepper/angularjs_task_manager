@@ -1,4 +1,6 @@
 app.component("sideNavTitle", {
     templateUrl: "components/sideNavTitle/sideNavTitle.html",
-    controller: "myCtrl"
+    require: {
+        parentCtrl: "^app"
+    }
 });

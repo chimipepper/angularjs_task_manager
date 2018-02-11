@@ -27,25 +27,16 @@
 
 </head>
 
-<body ng-app="myApp" ng-controller="myCtrl">
+<body ng-app="myApp">
 
     <div class="verticalSpace">
-        <div class="container grid">
 
-            <side-nav-title></side-nav-title>
-            <side-nav></side-nav>
-            <search-bar></search-bar>
-            <task-list-nav></task-list-nav>
-            <tool-bar></tool-bar>
-            <task-list></task-list>
-            <add-task></add-task>
-            <task-details></task-details>
+        <app class="container grid"></app>
 
-        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
-    <script src="app.js"></script>
+    <script src="main.js"></script>
     <script src="components\searchBar\searchBar.js"></script>
     <script src="components\taskList\taskList.js"></script>
     <script src="components\sideNavTitle\sideNavTitle.js"></script>
@@ -54,7 +45,7 @@
     <script src="components\toolBar\toolBar.js"></script>
     <script src="components\taskDetails\taskDetails.js"></script>
     <script src="components\taskList\addTask\addTask.js"></script>
-
+    <script src="components\app\app.js"></script>
 </body>
 
 </html>
