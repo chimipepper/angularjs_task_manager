@@ -1,6 +1,14 @@
 # angularjs_task_manager
 Recreation of a Task Manager design made by Aga Ciurysek
 
+How to run:
+
+Might have to run these before npm install
+
+npm install --global gulp-cli
+npm install --save-dev gulp
+
+
 Inspiration: https://dribbble.com/shots/4184957-Task-Manager
 
 Todos:
