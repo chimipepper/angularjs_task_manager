@@ -4,9 +4,9 @@
 }
 .task i{
     font-size:40px;
-    padding-left:10px;
-    -webkit-text-stroke: 3px white;
-    background-color: #f1f2f7;
+    margin-left:10px;
+    /*-webkit-text-stroke: 3px white;*/
+    /*background-color: #f1f2f7;*/
 }
 
 .task {
@@ -15,6 +15,10 @@
     border-top: solid 2px #d3d3d3;
     background-color: #f1f2f7;
     height: 70px;
+}
+.task:hover {
+    background-color: #FDFDFD;
+    cursor: pointer;
 }
 
 .centerButton {
