@@ -1,6 +1,11 @@
 app.component("taskDetails", {
+  bindings:{
+    selected:'<'
+  },
     templateUrl: "components/taskDetails/taskDetails.html",
-    require: {
-        parentCtrl: "^app"
+    controller: function(){
+      this.selectTask = function(){
+        alert('yuh')
+      }
     }
 });

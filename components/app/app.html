@@ -3,6 +3,6 @@
 <search-bar></search-bar>
 <task-list-nav></task-list-nav>
 <tool-bar></tool-bar>
-<task-list tasks="$ctrl.tasks"></task-list>
+<task-list tasks="$ctrl.tasks" select="$ctrl.selectTask(index)"></task-list>
 <add-task add="$ctrl.addTask()"></add-task>
-<task-details></task-details>
+<task-details selected="$ctrl.selectedTask"></task-details>
