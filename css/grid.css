@@ -40,6 +40,7 @@ task-list {
     border-left: solid 2px #d3d3d3;
     border-right: solid 2px #d3d3d3;
     overflow-y: scroll;
+    background-color: #f1f2f7;
 }
 
 task-details {
