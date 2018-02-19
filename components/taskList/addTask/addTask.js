@@ -1,6 +1,11 @@
 app.component("addTask", {
+  bindings:{
+    add:'&'
+  },
     templateUrl: "components/taskList/addTask/addTask.html",
-    require: {
-        parentCtrl: "^app"
+    controller: function(){
+      var $ctrl = this;
+
     }
+
 });
